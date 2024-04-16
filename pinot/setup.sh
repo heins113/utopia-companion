@@ -47,6 +47,8 @@ kt --create --if-not-exists --partitions 4 --topic data-demo-artists
 kt --create --if-not-exists --partitions 4 --topic data-demo-tickets
 kt --create --if-not-exists --partitions 4 --topic data-demo-events
 kt --create --if-not-exists --partitions 4 --topic data-demo-streams
+kt --create --if-not-exists --partitions 4 --topic utopia-demo-aged-customer
+kt --create --if-not-exists --partitions 4 --topic utopia-demo-ticket-genre
 
 pinot table venue
 pinot table email

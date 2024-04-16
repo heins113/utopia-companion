@@ -1,0 +1,39 @@
+{
+  "schemaName": "ticketGenre",
+  "metricFieldSpecs": [
+    {
+      "name": "count",
+      "dataType": "INT"
+    },
+    {
+      "name": "price",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "dimensionFieldSpecs": [
+    {
+      "name": "id",
+      "dataType": "STRING"
+    },
+    {
+      "name": "customerid",
+      "dataType": "STRING"
+    },
+    {
+      "name": "eventid",
+      "dataType": "STRING"
+    },
+    {
+      "name": "genre",
+      "dataType": "STRING"
+    }
+  ],
+  "dateTimeFieldSpecs": [
+    {
+      "name": "timestamp",
+      "dataType": "TIMESTAMP",
+      "format": "1:MILLISECONDS:EPOCH",
+      "granularity": "1:MILLISECONDS"
+    }
+  ]
+}
